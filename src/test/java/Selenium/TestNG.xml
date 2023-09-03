@@ -1,0 +1,18 @@
+<suite name="TestNg">
+	<test name="TestNG" allow-return-values="true">
+		<classes>
+			<class name="Selenium.TestSelenium" />
+		</classes>
+	</test>
+	<test name="Alert" allow-return-values="true">
+		<classes>
+			<class name="Selenium.Alert" />
+		</classes>
+	</test>
+	<test name="DragAndDrop" allow-return-values="true">
+		<classes>
+			<class name="Selenium.DragandDrop" />
+		</classes>
+	</test>
+
+</suite>

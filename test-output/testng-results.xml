@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-03T10:34:21 GMT-04:00" name="TestNg" finished-at="2023-09-03T10:34:54 GMT-04:00" duration-ms="32423">
+    <groups>
+      <group name="title">
+        <method signature="TestSelenium.gettitle()[pri:1, instance:Selenium.TestSelenium@248e319b]" name="gettitle" class="Selenium.TestSelenium"/>
+      </group> <!-- title -->
+      <group name="verification">
+        <method signature="TestSelenium.display()[pri:2, instance:Selenium.TestSelenium@248e319b]" name="display" class="Selenium.TestSelenium"/>
+      </group> <!-- verification -->
+    </groups>
+    <test started-at="2023-09-03T10:34:21 GMT-04:00" name="TestNG" finished-at="2023-09-03T10:34:53 GMT-04:00" duration-ms="32374">
+      <class name="Selenium.TestSelenium">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:21 GMT-04:00" name="setupDriver" finished-at="2023-09-03T10:34:21 GMT-04:00" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="before()[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:21 GMT-04:00" name="before" finished-at="2023-09-03T10:34:27 GMT-04:00" duration-ms="6278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Display(java.lang.String)[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:27 GMT-04:00" name="Display" data-provider="getdata" finished-at="2023-09-03T10:34:30 GMT-04:00" duration-ms="2179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roicians]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Display -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:30 GMT-04:00" name="aftermethod" finished-at="2023-09-03T10:34:31 GMT-04:00" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="before()[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:31 GMT-04:00" name="before" finished-at="2023-09-03T10:34:36 GMT-04:00" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Display(java.lang.String)[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:36 GMT-04:00" name="Display" data-provider="getdata" finished-at="2023-09-03T10:34:38 GMT-04:00" duration-ms="2302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roicians Automation Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Display -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:38 GMT-04:00" name="aftermethod" finished-at="2023-09-03T10:34:40 GMT-04:00" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="before()[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:40 GMT-04:00" name="before" finished-at="2023-09-03T10:34:44 GMT-04:00" duration-ms="4592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Display(java.lang.String)[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:44 GMT-04:00" name="Display" data-provider="getdata" finished-at="2023-09-03T10:34:46 GMT-04:00" duration-ms="2156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RoiciansQA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Display -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:46 GMT-04:00" name="aftermethod" finished-at="2023-09-03T10:34:48 GMT-04:00" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="before()[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:48 GMT-04:00" name="before" finished-at="2023-09-03T10:34:52 GMT-04:00" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="gettitle()[pri:1, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:52 GMT-04:00" name="gettitle" finished-at="2023-09-03T10:34:52 GMT-04:00" duration-ms="46" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [yahoo] but found [Google]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [yahoo] but found [Google]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Selenium.TestSelenium.gettitle(TestSelenium.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:52 GMT-04:00" name="aftermethod" finished-at="2023-09-03T10:34:53 GMT-04:00" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="display()[pri:2, instance:Selenium.TestSelenium@248e319b]" started-at="2023-09-03T10:34:53 GMT-04:00" name="display" finished-at="2023-09-03T10:34:53 GMT-04:00" depends-on-methods="Selenium.TestSelenium.gettitle" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Selenium.TestSelenium.display() on instance Selenium.TestSelenium@248e319b depends on not successfully finished methods 
+[Selenium.TestSelenium.gettitle() on instance Selenium.TestSelenium@248e319b]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Selenium.TestSelenium.display() on instance Selenium.TestSelenium@248e319b depends on not successfully finished methods 
+[Selenium.TestSelenium.gettitle() on instance Selenium.TestSelenium@248e319b]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+      </class> <!-- Selenium.TestSelenium -->
+    </test> <!-- TestNG -->
+    <test started-at="2023-09-03T10:34:54 GMT-04:00" name="Alert" finished-at="2023-09-03T10:34:54 GMT-04:00" duration-ms="1">
+    </test> <!-- Alert -->
+    <test started-at="2023-09-03T10:34:54 GMT-04:00" name="DragAndDrop" finished-at="2023-09-03T10:34:54 GMT-04:00" duration-ms="0">
+    </test> <!-- DragAndDrop -->
+  </suite> <!-- TestNg -->
+</testng-results>
